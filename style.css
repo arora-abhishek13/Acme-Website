@@ -1,0 +1,126 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+button{
+    background-color: orangered;
+    min-height: 31px;
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+header{
+    background: #35424a;
+    color: aliceblue;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: orangered solid;
+}
+
+header a{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul{
+    padding: 0;
+    margin: 0;
+}
+
+header li{
+    float: left;
+    display: inline;
+    margin-right: 20px;
+}
+
+header h1{
+    float: left;
+}
+
+header nav{
+    float: right;
+    margin-top: 30px;
+}
+
+header .highlight, header .current a{
+    color: orangered;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #4d5961;
+    font-weight: bold;
+}
+
+#showcase{
+    min-height: 300px;
+    background-image: url('../images/showcase.webp');
+    text-align: center;
+    color: aliceblue;
+}
+
+#showcase h1{
+    font-size: 40px;
+}
+
+#showcase p{
+    font-size: 25px;
+}
+
+#newsletter{
+    background: #35424a;
+    color: aliceblue;
+}
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form{
+     float: right;
+     margin-top: 25px;
+}
+
+#newsletter input[type=email]{
+    height: 25px;
+    width: 300px;
+}
+
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .boxes{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .boxes img{
+     width:120px;
+}
+
+footer{
+    background-color: orangered;
+    color: aliceblue;
+    height: 50px;
+}
+
+footer p{
+    padding: 15px;
+    text-align: center;
+}
